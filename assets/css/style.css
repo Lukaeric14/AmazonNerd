@@ -1,0 +1,31 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+  
+  body{
+    background-color: black;
+}
+
+.logo {
+    color: white;
+    text-align: center;
+    font-size: large;
+    margin-top: 60px;
+}
+main {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+}
+
+.productcard {
+    max-height: 100px;
+    max-width: 100px;
+    margin: 5px;
+}
+
+/* Media scaling  */
+

@@ -4,6 +4,11 @@
     box-sizing: border-box;
  }
   
+ header {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
   body{
     background-color:  #141414;
 }
@@ -12,7 +17,6 @@
     color: white;
     text-align: center;
     font-size: large;
-    margin-top: 60px;
 }
 main {
 display: flex;
